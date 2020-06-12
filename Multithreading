@@ -1,0 +1,36 @@
+Before we start learning multi threading we first need to understand how a regular program runs.
+
+PROGRAMS run from the top to bottom fashion which means it has ONE PATH OF EXECUTION.
+
+However a MULTI THREADED PROGRAM can actually have TWO OR MORE PATHS OF EXECUTION which can run concurrently.
+
+So a THREAD is a path of execution.
+Hence a program with multiple paths of execution are called as MULTI THREADED PROGRAMS.
+
+MULTI THREADING is a part of MULTI TASKING.
+
+To understand MULTI THREADING in a better way, let's discuss about MULTI TASKING FIRST.
+
+******************* MULTI TASKING *****************
+
+Basic example of MULTI TASKING is using a browser window and IDE simultaneously.
+
+                  -------  PROCESS BASED 
+                  |
+MULTITASKING  ---- 
+                  |
+                  -------- THREAD BASED
+
+** PROCESS BASED MULTITASKING **:- Allows us to run two or more programs simultaneously.
+Examples :- Using browser and IDE the same time.
+
+=> In this case the IDE and the BROWSER are actually run by two different processes meaning one process which runs the browser and
+   
+   another process which actually runs the IDE.
+   
+=> This is called as PROCESS BASED MULTITASKING which means two different programs running on their own.
+
+
+** THREAD BASED MULTITASKING ** :- It allows us to perform multiple tasks in a single program.
+Example:- In a music player, we can search and listen to the song at the same time.
+

@@ -34,3 +34,7 @@ Examples :- Using browser and IDE the same time.
 ** THREAD BASED MULTITASKING ** :- It allows us to perform multiple tasks in a single program.
 Example:- In a music player, we can search and listen to the song at the same time.
 
+=> This thing is only possible because music player is a multi threaded program.
+=> That means it can perform two tasks simultaneously and it can perform these two tasks simultaneously
+   because these tasks are actually carried out by two differnet threads.
+  
